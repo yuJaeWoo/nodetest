@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/project/directType.js"],"names":["template"],"mappings":"kHAAA,OAAe,cACXA,SAAU","file":"js/chunk-2d0d38d3.cc5eb7b4.js","sourcesContent":["export default {\n    template: 'template',\n};"],"sourceRoot":""}

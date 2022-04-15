@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang="ko"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>웹소켓</title> 
+    </head> 
+    <body> 
+        <h1>웹소켓 테스트</h1> <!-- 버튼 2개 생성 --> 
+        <button id="btn_send">메시지 전송</button> 
+        <button id="btn_close">연결 끊기</button> 
+    </body> 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script> 
+        // const axios = require('axios');
+    
+    // 3. 버튼 클릭 이벤트 처리 
+    // 3-1) 웹소켓 서버에게 메세지 보내기 
+    let count = 1; 
+    document.getElementById("btn_send").onclick = function(){ 
+
+        console.log('post');
+
+
+// // 지정된 ID를 가진 유저에 대한 요청
+// axios.get('/user?ID=12345')
+//   .then(function (response) {
+//     // 성공 핸들링
+//     console.log(response);
+//   })
+//   .catch(function (error) {
+//     // 에러 핸들링
+//     console.log(error);
+//   })
+//   .then(function () {
+//     // 항상 실행되는 영역
+//   });
+
+
+// 선택적으로 위의 요청은 다음과 같이 수행될 수 있습니다.
+axios.post('http://127.0.0.1:3000/nlu', {
+    params: {
+      ID: 12345
+    }
+  })
+  .then(function (response) {
+    console.log('then', response);
+  })
+  .catch(function (error) {
+    console.log(error);
+  })
+  .then(function () {
+    // 항상 실행되는 영역
+  });  
+
+} 
+    </script> 
+</html>
+

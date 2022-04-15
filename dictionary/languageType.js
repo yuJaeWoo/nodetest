@@ -1,0 +1,1 @@
+module.exports = {  KR: 'kr',  CN: 'cn',};

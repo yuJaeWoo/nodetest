@@ -1,0 +1,15 @@
+module.exports = {
+    TALK_AVAILABILITY: 'TalkAvailable',
+    COMMON_NODE: 'CommonNode',
+    COMMON_NODE_LIST: 'CommonNodeList',
+    TALK_START: 'TalkStart',
+    TALK_SEND: 'TalkSend',
+    TALK_RECEIVE: 'TalkReceive',
+    TALK_WRITING_STATUS: 'TalkWritingStatus',
+    TALK_END: 'TalkEnd',
+    COMMON_INSERT_SURVEY: 'CommonInsertSurvey',
+    GET_TEMPLATE: 'TalkTemplateContents',
+    GET_HISTORY: 'TalkList',
+    GET_HISTORY_DETAIL: 'TalkContents',
+    CONSULTING_TO_VOC: 'CONSULTING_TO_VOC',
+  };

@@ -1,0 +1,38 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "connect-redis": "^6.0.0",
+    "connect-timeout": "^1.9.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dialogflow": "^1.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "googleapis": "^91.0.0",
+    "node-oracledb": "^1.0.2",
+    "oracledb": "^5.3.0",
+    "redis": "^3.1.2",
+    "request-promise": "^4.2.6",
+    "session-file-store": "^1.5.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "sessions/*.json"
+    ]
+  },
+  "license": "ISC"
+}

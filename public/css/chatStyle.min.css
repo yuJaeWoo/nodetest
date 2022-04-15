@@ -1,0 +1,51 @@
+@import url("chatStyle_default.min.css");
+
+@font-face {
+    font-family: 'notokr';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Noto Sans Regular"), local("NotoSans-Regular"), url(../fonts/NotoSansKR-Regular.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'notokr';
+    font-style: normal;
+    font-weight: 500;
+    src: local("Noto Sans Medium"), local("NotoSans-Medium"), url(../fonts/NotoSansKR-Medium.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'notokr';
+    font-style: normal;
+    font-weight: 700;
+    src: local("Noto Sans Bold"), local("NotoSans-Bold"), url(../fonts/NotoSansKR-Bold.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'RobotoW';
+    font-weight: 400;
+    src: local("Roboto Regular"), url(../fonts/Roboto-Regular.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'RobotoW';
+    font-weight: 500;
+    src: local("Roboto Medium"), url(../fonts/Roboto-Medium.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'RobotoW';
+    font-weight: 700;
+    src: local("Roboto Bold"), url(../fonts/Roboto-Bold.woff) format("woff")
+}
+
+:root {
+    --col_blue: #4d6ee4;
+    --col_blue09: #e9ebfb;
+    --default_font: -apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Sandoll 고딕Neo1, roboto, Noto Sans, RobotoW, notokr, Open Sans, Helvetica Neue, sans-serif;
+    --eng_font: SF Pro Display, roboto, RobotoW
+}
+
+.langCN {
+    display: none !important
+}

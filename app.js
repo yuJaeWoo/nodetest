@@ -2,8 +2,8 @@ require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const cors = require('cors')
-const cookieParser = require('cookie-parser');
-const session = require('express-session');
+// const cookieParser = require('cookie-parser');
+// const session = require('express-session');
 
 const app = express();
 const PORT = process.env.PORT || 8088;
@@ -12,19 +12,19 @@ console.log('PORT', PORT);
 
 app.set('trust proxy', true);
 
-app.use(cookieParser());
+// app.use(cookieParser());
 
 
-app.use(session({  // 2
-  secret: 'keyboard cat',  // 암호화
-  resave: false,
-  saveUninitialized: true,
-  // name: 'chatbot-session',
-  cookie: {
-    secure: false,
-    httpOnly: true,
-  },
-}));
+// app.use(session({  // 2
+//   secret: 'keyboard cat',  // 암호화
+//   resave: false,
+//   saveUninitialized: true,
+//   // name: 'chatbot-session',
+//   cookie: {
+//     secure: false,
+//     httpOnly: true,
+//   },
+// }));
 
 var corsOptions = {
   origin: '*',

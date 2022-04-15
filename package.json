@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "pm2 start app.js"
+  },
   "author": "",
   "dependencies": {
     "axios": "^0.26.1",
